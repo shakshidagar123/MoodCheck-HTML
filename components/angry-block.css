@@ -1,0 +1,40 @@
+.angry-block-gallery-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.angry-block-icon {
+  fill: #ffd6a5;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+}
+.angry-block-text {
+  color: var(--dl-color-gray-white);
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+
+@media(max-width: 1200px) {
+  .angry-block-icon {
+    fill: #ffd6a5;
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
+  }
+  .angry-block-text {
+    color: var(--dl-color-gray-white);
+    align-self: center;
+  }
+  .angry-block-root-class-name {
+    width: var(--dl-size-size-large);
+    height: var(--dl-size-size-large);
+  }
+}
+@media(max-width: 767px) {
+  .angry-block-gallery-card {
+    flex-direction: column;
+  }
+}

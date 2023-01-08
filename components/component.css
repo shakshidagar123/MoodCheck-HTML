@@ -1,0 +1,40 @@
+.component-container {
+  position: relative;
+}
+.component-icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+@media(max-width: 1200px) {
+  .component-text {
+    top: 153px;
+    left: 75px;
+    width: var(--dl-size-size-small);
+    height: 25px;
+    position: absolute;
+  }
+  .component-icon {
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
+  }
+  .component-root-class-name {
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
+  }
+  .component-root-class-name1 {
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
+  }
+  .component-root-class-name2 {
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
+  }
+  .component-root-class-name3 {
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
+  }
+}
